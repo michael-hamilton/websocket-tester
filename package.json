@@ -1,0 +1,28 @@
+{
+  "name": "websocket-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-hamilton/websocket-tester.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michael-hamilton/websocket-tester/issues"
+  },
+  "homepage": "https://github.com/michael-hamilton/websocket-tester#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
